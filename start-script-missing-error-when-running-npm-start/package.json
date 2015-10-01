@@ -1,0 +1,12 @@
+{
+  "name": "stack_overflow-start-script-missing-error-when-running-npm-start",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"this is the start script\" && exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

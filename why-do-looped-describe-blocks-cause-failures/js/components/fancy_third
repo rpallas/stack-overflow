@@ -1,0 +1,4 @@
+module.exports = function() {
+  return 'one with the world'
+}
+

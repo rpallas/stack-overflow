@@ -1,0 +1,11 @@
+{
+  "name": "npm-scripts-nodemon-watching-js-and-scss-files-for-changes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-sass": "nodemon -e scss --watch public/sass -x \"echo sass file changed\"",
+    "watch-js": "nodemon -e js --watch public/js -x \"echo js file changed\"",
+    "watch": "npm run watch-js && npm run watch-sass"
+  }
+}

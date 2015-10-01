@@ -1,0 +1,14 @@
+{
+  "name": "why-do-looped-describe-blocks-cause-failures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-cli": "^0.4.19"
+  }
+}

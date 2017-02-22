@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    div#startbutton
+        p start
+    div#endbutton
+        p stop
+    div#resetbutton
+        p reset
+    div#savebutton
+        p save
+    div#container
+        form(name='textform', method='post', action='/save')
+            input(type="submit", value="Submit")
+            textarea#thetextarea(rows=20 cols=30)
+

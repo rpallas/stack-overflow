@@ -1,0 +1,25 @@
+<html>
+<head></head>
+<body>
+    <form id = "form" action = "" style = "position: absolute; bottom: 0; width: 100%;">
+    Chat: <input style = "width: 90%;" type = "text" name = "chat">
+    <input type = "submit" style = "margin: 2px 50%">
+    </form>
+    <ul id = "myList"></ul>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+    var myList = document.getElementById('myList');
+    var socket = io();
+    var form = document.getElementById("form");
+    form.addEventListener("submit", function(ev) {
+        ev.preventDefault();
+        socket.emit('message', form.chat.value);
+    });
+    socket.on('update', function(msg) {
+        var node = document.createElement('li');
+        var textnode = document.createTextNode(msg);
+        node.appendChild(textnode);
+        document.getElementById('myList').appendChild(node);
+    });
+</script>
+</body>

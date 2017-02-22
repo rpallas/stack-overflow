@@ -1,0 +1,243 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'socket.io',
+1 verbose cli   'express--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json chat-server-using-socket-io-message-not-appending-to-list@1.0.0 No description
+6 warn package.json chat-server-using-socket-io-message-not-appending-to-list@1.0.0 No repository field.
+7 warn package.json chat-server-using-socket-io-message-not-appending-to-list@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'socket.io', null ]
+10 verbose cache add name=undefined spec="socket.io" args=["socket.io",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'socket.io',
+11 verbose parsed url   path: 'socket.io',
+11 verbose parsed url   href: 'socket.io' }
+12 verbose cache add [ 'express--save', null ]
+13 verbose cache add name=undefined spec="express--save" args=["express--save",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'express--save',
+14 verbose parsed url   path: 'express--save',
+14 verbose parsed url   href: 'express--save' }
+15 silly lockFile 71475bfd-socket-io socket.io
+16 verbose lock socket.io /Users/rpallas/.npm/71475bfd-socket-io.lock
+17 silly lockFile e847a73f-express-save express--save
+18 verbose lock express--save /Users/rpallas/.npm/e847a73f-express-save.lock
+19 silly lockFile 71475bfd-socket-io socket.io
+20 silly lockFile 71475bfd-socket-io socket.io
+21 silly lockFile e847a73f-express-save express--save
+22 silly lockFile e847a73f-express-save express--save
+23 verbose addNamed [ 'socket.io', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile c03de861-socket-io socket.io@
+26 verbose lock socket.io@ /Users/rpallas/.npm/c03de861-socket-io.lock
+27 verbose addNamed [ 'express--save', '' ]
+28 verbose addNamed [ null, '*' ]
+29 silly lockFile fbb48af0-express-save express--save@
+30 verbose lock express--save@ /Users/rpallas/.npm/fbb48af0-express-save.lock
+31 silly addNameRange { name: 'socket.io', range: '*', hasData: false }
+32 silly addNameRange { name: 'express--save', range: '*', hasData: false }
+33 verbose request where is /express--save
+34 verbose request registry http://npm.sequoia.piksel.com/
+35 verbose request id ab8490e22cb03ade
+36 verbose url raw /express--save
+37 verbose url resolving [ 'http://npm.sequoia.piksel.com/', './express--save' ]
+38 verbose url resolved http://npm.sequoia.piksel.com/express--save
+39 verbose request where is http://npm.sequoia.piksel.com/express--save
+40 info trying registry request attempt 1 at 19:29:02
+41 http GET http://npm.sequoia.piksel.com/express--save
+42 verbose request where is /socket.io
+43 verbose request registry http://npm.sequoia.piksel.com/
+44 verbose url raw /socket.io
+45 verbose url resolving [ 'http://npm.sequoia.piksel.com/', './socket.io' ]
+46 verbose url resolved http://npm.sequoia.piksel.com/socket.io
+47 verbose request where is http://npm.sequoia.piksel.com/socket.io
+48 info trying registry request attempt 1 at 19:29:02
+49 verbose etag "561e058ef8d54515bf1e0ad1bd5b8d4f"
+50 http GET http://npm.sequoia.piksel.com/socket.io
+51 http 200 http://npm.sequoia.piksel.com/socket.io
+52 silly registry.get cb [ 200,
+52 silly registry.get   { date: 'Thu, 22 Sep 2016 18:29:02 GMT',
+52 silly registry.get     server: 'Apache',
+52 silly registry.get     'x-powered-by': 'Sinopia/0.8.2',
+52 silly registry.get     'content-type': 'application/json; charset=utf-8',
+52 silly registry.get     etag: '"b967df8adf3ce33d6578e507020aa373"',
+52 silly registry.get     vary: 'Accept-Encoding',
+52 silly registry.get     'content-encoding': 'gzip',
+52 silly registry.get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+52 silly registry.get     via: '1.1 npm.infra.aws.sequoia.piksel.com',
+52 silly registry.get     'x-clacks-overhead': 'GNU Terry Pratchett',
+52 silly registry.get     'keep-alive': 'timeout=120, max=4096',
+52 silly registry.get     connection: 'Keep-Alive',
+52 silly registry.get     'transfer-encoding': 'chunked' } ]
+53 silly addNameRange number 2 { name: 'socket.io', range: '*', hasData: true }
+54 silly addNameRange versions [ 'socket.io',
+54 silly addNameRange   [ '0.3.8',
+54 silly addNameRange     '0.4.0',
+54 silly addNameRange     '0.4.1',
+54 silly addNameRange     '0.5.1',
+54 silly addNameRange     '0.5.3',
+54 silly addNameRange     '0.6.0',
+54 silly addNameRange     '0.6.1',
+54 silly addNameRange     '0.6.3',
+54 silly addNameRange     '0.6.4',
+54 silly addNameRange     '0.6.5',
+54 silly addNameRange     '0.6.6',
+54 silly addNameRange     '0.6.7',
+54 silly addNameRange     '0.6.8',
+54 silly addNameRange     '0.6.9',
+54 silly addNameRange     '0.6.10',
+54 silly addNameRange     '0.6.11',
+54 silly addNameRange     '0.6.12',
+54 silly addNameRange     '0.6.14',
+54 silly addNameRange     '0.6.15',
+54 silly addNameRange     '0.6.16',
+54 silly addNameRange     '0.6.17',
+54 silly addNameRange     '0.6.18',
+54 silly addNameRange     '0.7.0',
+54 silly addNameRange     '0.7.1',
+54 silly addNameRange     '0.7.2',
+54 silly addNameRange     '0.7.3',
+54 silly addNameRange     '0.7.4',
+54 silly addNameRange     '0.7.5',
+54 silly addNameRange     '0.7.6',
+54 silly addNameRange     '0.7.7',
+54 silly addNameRange     '0.7.8',
+54 silly addNameRange     '0.7.9',
+54 silly addNameRange     '0.7.10',
+54 silly addNameRange     '0.7.11',
+54 silly addNameRange     '0.8.0',
+54 silly addNameRange     '0.8.1',
+54 silly addNameRange     '0.8.2',
+54 silly addNameRange     '0.8.3',
+54 silly addNameRange     '0.8.4',
+54 silly addNameRange     '0.8.5',
+54 silly addNameRange     '0.8.6',
+54 silly addNameRange     '0.8.7',
+54 silly addNameRange     '0.9.0',
+54 silly addNameRange     '0.9.1',
+54 silly addNameRange     '0.9.1-1',
+54 silly addNameRange     '0.9.2',
+54 silly addNameRange     '0.9.3',
+54 silly addNameRange     '0.9.4',
+54 silly addNameRange     '0.9.5',
+54 silly addNameRange     '0.9.6',
+54 silly addNameRange     '0.9.7',
+54 silly addNameRange     '0.9.8',
+54 silly addNameRange     '0.9.9',
+54 silly addNameRange     '0.9.10',
+54 silly addNameRange     '0.9.11',
+54 silly addNameRange     '0.9.12',
+54 silly addNameRange     '0.9.13',
+54 silly addNameRange     '0.9.14',
+54 silly addNameRange     '0.9.15',
+54 silly addNameRange     '0.9.16',
+54 silly addNameRange     '1.0.0-pre',
+54 silly addNameRange     '1.0.0-pre2',
+54 silly addNameRange     '1.0.0-pre3',
+54 silly addNameRange     '1.0.0-pre4',
+54 silly addNameRange     '1.0.0-pre5',
+54 silly addNameRange     '0.9.17',
+54 silly addNameRange     '1.0.0',
+54 silly addNameRange     '1.0.1',
+54 silly addNameRange     '1.0.2',
+54 silly addNameRange     '1.0.3',
+54 silly addNameRange     '1.0.4',
+54 silly addNameRange     '1.0.5',
+54 silly addNameRange     '1.0.6',
+54 silly addNameRange     '1.1.0',
+54 silly addNameRange     '1.2.0',
+54 silly addNameRange     '1.2.1',
+54 silly addNameRange     '1.3.0',
+54 silly addNameRange     '1.3.1',
+54 silly addNameRange     '1.3.2',
+54 silly addNameRange     '1.3.3',
+54 silly addNameRange     '1.3.4',
+54 silly addNameRange     '1.3.5',
+54 silly addNameRange     '1.3.6',
+54 silly addNameRange     '1.3.7',
+54 silly addNameRange     '1.4.0',
+54 silly addNameRange     '1.4.1',
+54 silly addNameRange     '1.4.2',
+54 silly addNameRange     '1.4.3',
+54 silly addNameRange     '1.4.4',
+54 silly addNameRange     '1.4.5',
+54 silly addNameRange     '1.4.6',
+54 silly addNameRange     '1.4.7',
+54 silly addNameRange     '1.4.8' ] ]
+55 verbose addNamed [ 'socket.io', '1.4.8' ]
+56 verbose addNamed [ '1.4.8', '1.4.8' ]
+57 silly lockFile f78b8754-socket-io-1-4-8 socket.io@1.4.8
+58 verbose lock socket.io@1.4.8 /Users/rpallas/.npm/f78b8754-socket-io-1-4-8.lock
+59 silly lockFile f78b8754-socket-io-1-4-8 socket.io@1.4.8
+60 silly lockFile f78b8754-socket-io-1-4-8 socket.io@1.4.8
+61 silly lockFile c03de861-socket-io socket.io@
+62 silly lockFile c03de861-socket-io socket.io@
+63 http 404 http://npm.sequoia.piksel.com/express--save
+64 verbose headers { date: 'Thu, 22 Sep 2016 18:29:02 GMT',
+64 verbose headers   server: 'Apache',
+64 verbose headers   'x-powered-by': 'Sinopia/0.8.2',
+64 verbose headers   'content-type': 'application/json; charset=utf-8',
+64 verbose headers   'content-length': '42',
+64 verbose headers   etag: 'W/"2a-412941920"',
+64 verbose headers   vary: 'Accept-Encoding',
+64 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+64 verbose headers   via: '1.1 npm.infra.aws.sequoia.piksel.com',
+64 verbose headers   'x-clacks-overhead': 'GNU Terry Pratchett',
+64 verbose headers   'keep-alive': 'timeout=120, max=4096',
+64 verbose headers   connection: 'Keep-Alive' }
+65 silly registry.get cb [ 404,
+65 silly registry.get   { date: 'Thu, 22 Sep 2016 18:29:02 GMT',
+65 silly registry.get     server: 'Apache',
+65 silly registry.get     'x-powered-by': 'Sinopia/0.8.2',
+65 silly registry.get     'content-type': 'application/json; charset=utf-8',
+65 silly registry.get     'content-length': '42',
+65 silly registry.get     etag: 'W/"2a-412941920"',
+65 silly registry.get     vary: 'Accept-Encoding',
+65 silly registry.get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+65 silly registry.get     via: '1.1 npm.infra.aws.sequoia.piksel.com',
+65 silly registry.get     'x-clacks-overhead': 'GNU Terry Pratchett',
+65 silly registry.get     'keep-alive': 'timeout=120, max=4096',
+65 silly registry.get     connection: 'Keep-Alive' } ]
+66 silly lockFile fbb48af0-express-save express--save@
+67 silly lockFile fbb48af0-express-save express--save@
+68 error Error: no such package available : express--save
+68 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+68 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+68 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+68 error     at Request.emit (events.js:98:17)
+68 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+68 error     at Request.emit (events.js:117:20)
+68 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+68 error     at IncomingMessage.emit (events.js:117:20)
+68 error     at _stream_readable.js:944:16
+68 error     at process._tickCallback (node.js:448:13)
+69 error If you need help, you may report this *entire* log,
+69 error including the npm and node versions, at:
+69 error     <http://github.com/npm/npm/issues>
+70 error System Darwin 15.6.0
+71 error command "/usr/local/bin/node" "/usr/local/bin/npm" "i" "socket.io" "express--save"
+72 error cwd /Users/rpallas/dev/stack-overflow/chat-server-using-socket-io-message-not-appending-to-list
+73 error node -v v0.10.40
+74 error npm -v 1.4.28
+75 verbose exit [ 1, true ]

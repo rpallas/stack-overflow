@@ -1,0 +1,13 @@
+<script>
+  fetch('http://localhost:8080/v1/signup', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: { username: 'test', password: 'secret' }
+  }).then(res => {
+   if (response.status === 200) {
+      return Promise.resolve(response)
+    } else {
+      return Promise.reject(new Error(response.statusText))
+    }
+  });
+</script>
